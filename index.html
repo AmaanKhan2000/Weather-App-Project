@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fb8464bc0d.js" crossorigin="anonymous"></script>
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Weather Project</title>
+</head>
+<body>
+	<section class="showcase">
+    <div class="video-container">
+      <video src="images/my-fantastic-video.mp4" autoplay muted loop></video>
+    </div>
+    <div class="content">
+      <h1> <span><i class="fas fa-cloud-sun-rain"></i></span> Weather App</h1>
+      <h3 class="small">Catch the live action of weathers from all around the Globe</h3>
+      <div class="alert">
+        <div class="box alert-box">
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="fas fa-city prefix"></i>
+                  <input id="cityValue" type="text">
+                  <label for="cityValue">City</label>
+                </div>
+                <div class="input-field col s6">
+                <i class="fas fa-flag prefix"></i>
+                  <input id="countryValue" type="text">
+                  <label for="countryValue">Country</label>
+                </div>
+              </div>
+              <div class="weather-output">
+              </div>
+              <div class="time-output">
+              </div>
+              <button type="submit" class="btn1"><span><i class="fas fa-check"></i></span> Search</button>
+              <button type="submit" class="btn2"><span><i class="fas fa-times"></i></span> Clear</button>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </section>
+
+
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="weather.js"></script>
+  <script src="time.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
