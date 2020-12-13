@@ -1,0 +1,2 @@
+# Weather-App-Project
+Weather forecast app provides detailed local forecast &amp; weather forecast world wide, the app provides the current temperature in Celsius, time according to city time zone. The weather app also provides atmospheric pressure, weather conditions, visibility distance, relative humidity in different wind speed and direction. Fetches the data from an API and displays in a motion UI 
